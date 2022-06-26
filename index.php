@@ -1,6 +1,6 @@
 <html>
    <head>
-    <title> Php Website </title>
+    <title> <?php echo 'Welcome Php File'; ?></title>
   </head>
   <body>
    <?php echo 'Hello'; ?>
