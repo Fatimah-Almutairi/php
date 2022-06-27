@@ -1,8 +1,9 @@
-<html>
-   <head>
-    <title> <?php echo 'Welcome Php File'; ?></title>
-  </head>
-  <body>
-   <?php echo 'Hello'; ?>
-  </body>
-</html>
+
+   <?php 
+   
+   $a = 5;
+   $b = 6;
+   $c = $a + $b;
+   
+
+   echo $c; ?>
