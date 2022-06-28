@@ -7,8 +7,8 @@
    $d = $a - $b;
 
    $b -= 3;
-   echo $b;
-   echo "<br> <br>";
+//    echo $b;
+   echo "<br>";
    $c += $a;
    echo $c;
 
@@ -19,4 +19,13 @@
    $full_name = $first_name . " " . $last_name;
 
    echo $full_name;
+
+   echo "<br>";
+   echo "<br>";
+   echo "<br>";
+   if($a < $b ){
+       echo "A is smaller than B";
+   }else{
+       echo "Else";
+   }
     ?>
