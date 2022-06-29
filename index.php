@@ -1,12 +1,22 @@
 
    <?php 
-
-for ($a=1 ; $a<=7; $a++){
-    echo $a . "<br>";
-    for($b = 1; $b <= 10; $b++){
-        echo $a ."." . $b . "<br>"; 
+$s = 6;
+for ($i = 1; $i<= $s; $i++){
+    for($j = 1; $j<=(2*$s)-1; $j++){
+        if($j>=$s-($i-1) && $j<= $s+($i-1)){
+            echo "*";
+        }else{
+            echo "&nbsp;"."&nbsp;";
+        }
     }
+    echo "<br>";
 }
+// for ($a=1 ; $a<=7; $a++){
+//     echo $a . "<br>";
+//     for($b = 1; $b <= 10; $b++){
+//         echo $a ."." . $b . "<br>"; 
+//     }
+// }
 /* $month_Number = 123;
 
      switch($month_Number){
