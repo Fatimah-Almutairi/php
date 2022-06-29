@@ -1,7 +1,13 @@
 
    <?php 
 
-     $month_Number = 123;
+for ($a=1 ; $a<=7; $a++){
+    echo $a . "<br>";
+    for($b = 1; $b <= 10; $b++){
+        echo $a ."." . $b . "<br>"; 
+    }
+}
+/* $month_Number = 123;
 
      switch($month_Number){
          case 1:
@@ -44,8 +50,8 @@
             echo "Check for the correct Month Number";
         break;
         
-     }
-
+     } */
+     
 //    $birth_month = 13;
 
 //    if($birth_month == 2 || $birth_month == 3 || $birth_month == 4){
