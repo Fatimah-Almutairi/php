@@ -3,8 +3,9 @@
 <title>Home Page</title>
 </head>
 <body>
+<h4>Enter your data:</h4>
 <form>
-    <h4>Enter your data:</h4>
-    <input type="text" value="gender" name= "gender">
-</body>
+    <input type="text" value="height" name= "height" placeholder="Enter your height"><br>
+    <input type="radio" id="male" name="male" value="male">
+  <label>Male</label><br>
 </html>
