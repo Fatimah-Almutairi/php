@@ -4,6 +4,7 @@
 </head>
 <body>
 <form>
-    <input type="text" name= "Gender">
+    <h4>Enter your data:</h4>
+    <input type="text" value="gender" name= "gender">
 </body>
 </html>
