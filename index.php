@@ -1,11 +1,30 @@
 
    <?php 
 
+//    associative arrays
 
+// $students = array(
+//     "Amal"    => 6,
+//     "Fatimah" => 8,
+//     "aysha"   => 6
+// );
 
+// foreach($students as $name => $age){
+//     echo "Your name is " . $name . " has ". $age ." years old <br>";
+// }
 
+// index array
+// $days = array('Sun', 'Mon', 'Tus', 'Wed');
 
+// foreach($days as $day){
+//     echo $day. "<br>";
+// }
 
+// echo "<pre>";
+// print_r($days);
+// echo "</pre>";
+
+//--------------------------
 // $s = 6;
 // for ($i = 1; $i<= $s; $i++){
 //     for($j = 1; $j<=(2*$s)-1; $j++){
