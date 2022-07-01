@@ -14,3 +14,18 @@
   <form>
 </body>
 </html>
+
+<?php
+$gender = "male";
+$old = 27;
+$height = 155;
+echo "<br>"."<br>";
+
+if($gender="female" || $height <=160 && $old <=40){
+    echo "Your width is nice";
+}elseif($gender = "male" || $height >=165 && $height <190){
+    echo "Your width is perfect";
+}else{
+    echo "Check your info is corect";
+}
+?>
