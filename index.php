@@ -1,6 +1,32 @@
 
    <?php 
 
+   
+
+// -----------------------
+// Mulatidimensional array
+
+// $months = array(
+//     array('Jan', 1, 31),
+//     array('Feb', 1, 28),
+//     array('Mar', 1, 30),
+//     array('Apr', 1, 31)
+// );
+
+// echo "<pre>";
+// print_r($months);
+// echo "</pre>";
+
+// // echo $months[2][0];
+
+// foreach($months as $month){
+//     echo $month[0]."<br>";
+//     echo $month[1]."<br>";
+//     echo $month[2]."<br>";
+
+// }
+// ----------------------
+
 //    associative arrays
 
 // $students = array(
