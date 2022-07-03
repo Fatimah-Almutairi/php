@@ -9,9 +9,9 @@
        "X"      => 80
    );
 
-   if($name => $nu > 95)(
-       echo "exclent";
-   )
+   if($name > 95){
+       echo $name;
+   }
 
 // -----------------------
 // Mulatidimensional array
