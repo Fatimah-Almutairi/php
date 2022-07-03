@@ -9,9 +9,9 @@
        "X"      => 80
    );
 
-   if(array[1] > 95){
-       echo "Excelent";
-   }
+   if($value[1] > 95)(
+       echo "exclent";
+   )
 
 // -----------------------
 // Mulatidimensional array
