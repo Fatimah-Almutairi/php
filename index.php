@@ -1,7 +1,17 @@
 
    <?php 
 
-   
+   $students = array(
+       "Ahmed"  => 99,
+       "Ali"    => 95,
+       "Amjad"  => 93,
+       "May"    => 88,
+       "X"      => 80
+   );
+
+   if(array[1] > 95){
+       echo "Excelent";
+   }
 
 // -----------------------
 // Mulatidimensional array
