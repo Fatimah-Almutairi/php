@@ -9,8 +9,8 @@
        "X"      => 80
    );
 
-   if($name > 95){
-       echo $name;
+   if($students > 95){
+       echo $students;
    }
 
 // -----------------------
