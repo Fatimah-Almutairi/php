@@ -9,7 +9,7 @@
        "X"      => 80
    );
 
-   if($value[1] > 95)(
+   if($name => $nu > 95)(
        echo "exclent";
    )
 
