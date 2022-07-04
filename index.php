@@ -11,12 +11,12 @@
        "X"      => 80
    );
 
-   if($students > 95){
-       echo $students;
-   }
 
 foreach($students as $name => $degree){
    
+    if($degree >= 95){
+        echo $name."<br>";
+    }
 }
 
 
