@@ -15,7 +15,7 @@
        echo $students;
    }
 
-   foreach($months as $month){
+   foreach($students as $student){
     echo $month[0]."<br>";
     echo $month[1]."<br>";
     echo $month[2]."<br>";
