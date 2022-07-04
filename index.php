@@ -15,12 +15,10 @@
        echo $students;
    }
 
-   foreach($students as $student){
-    echo $month[0]."<br>";
-    echo $month[1]."<br>";
-    echo $month[2]."<br>";
-
+foreach($students as $name => $age){
+    echo "Your name is " . $name . " has ". $age ." years old <br>";
 }
+
 
 // -----------------------
 // Mulatidimensional array
