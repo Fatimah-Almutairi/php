@@ -2,7 +2,7 @@
    <?php 
 
    $percent = 100;
-   
+
    $students = array(
        "Ahmed"  => 99,
        "Ali"    => 95,
@@ -14,6 +14,13 @@
    if($students > 95){
        echo $students;
    }
+
+   foreach($months as $month){
+    echo $month[0]."<br>";
+    echo $month[1]."<br>";
+    echo $month[2]."<br>";
+
+}
 
 // -----------------------
 // Mulatidimensional array
