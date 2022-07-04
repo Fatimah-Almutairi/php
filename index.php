@@ -15,8 +15,8 @@
        echo $students;
    }
 
-foreach($students as $name => $age){
-    echo "Your name is " . $name . " has ". $age ." years old <br>";
+foreach($students as $name => $degree){
+   
 }
 
 
