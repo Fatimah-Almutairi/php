@@ -1,6 +1,8 @@
 
    <?php 
 
+   $percent = 100;
+   
    $students = array(
        "Ahmed"  => 99,
        "Ali"    => 95,
