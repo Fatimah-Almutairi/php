@@ -16,6 +16,8 @@ foreach($students as $name => $degree){
    
     if($degree >= 95){
         echo $name."<br>";
+    }elseif($degree >=90 && $degree <95){
+        echo $name."<br>";
     }
 }
 
