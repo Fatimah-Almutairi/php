@@ -21,6 +21,8 @@ foreach($students as $name => $degree){
     }elseif($degree >=80 && $degree <90){
         echo $name."<br>";
 
+    }else{
+        echo "Sorry, Your degree is not good " . $degree . "<br>";
     }
 }
 
