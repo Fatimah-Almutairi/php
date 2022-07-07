@@ -15,6 +15,8 @@
          <label for="no2">Number 2:</label>
           <input type="number" id="no2" name= "no2"> 
         </div>
+        <br>
+        <button id= "submit" name="submit" value= "Submit">Calculate</button>
     </form>
 </body>
 </html>
