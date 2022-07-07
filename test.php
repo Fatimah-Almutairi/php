@@ -5,7 +5,7 @@
 </head>
 <body>
     <h3>Calculator</h3>
-    <form method ="post" action= "" name= "calform" id="calform">
+    <form method ="post" action= "calculate.php" name= "calform" id="calform">
         <div>
          <label for="no1">Number 1:</label>
           <input type="number" id="no1" name= "no1"> 
