@@ -16,6 +16,10 @@
           <input type="number" id="no2" name= "no2"> 
         </div>
         <br>
+        <div>
+            <label for="arth_oper"> Select Operation : </label>
+            <select name="arth_operation" id="arth_operation"></select>
+        </div>
         <button id= "submit" name="submit" value= "Submit">Calculate</button>
     </form>
 </body>
