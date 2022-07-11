@@ -21,6 +21,8 @@
             <select name="arth_operation" id="arth_operation">
                 <option value="sum_operation">Sum +</option>
                 <option value="sub_operation">Sub -</option>
+                <option value="multiple_operation">Multiple *</option>
+                <option value="div_operation">Div /</option>
             </select>
         </div>
         <button id= "submit" name="submit" value= "Submit">Calculate</button>
