@@ -18,7 +18,10 @@
         <br>
         <div>
             <label for="arth_oper"> Select Operation : </label>
-            <select name="arth_operation" id="arth_operation"></select>
+            <select name="arth_operation" id="arth_operation">
+                <option value="sum_operation">Sum +</option>
+                <option value="sub_operation">Sub -</option>
+            </select>
         </div>
         <button id= "submit" name="submit" value= "Submit">Calculate</button>
     </form>
