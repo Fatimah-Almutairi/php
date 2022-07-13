@@ -1,6 +1,6 @@
 <?php
 
-$no1 = $_POST['no1'];
+$no1 = $_POST['no2'];
 //  echo"<br>";
 $no2 = $_POST['no2'];
 // echo"<br> <br>";
