@@ -11,7 +11,8 @@ if($arthematic_operation == 'sum_operation') {
     $cal_val = $no1 - $no2;
 }else if($arthematic_operation == 'multiple_operation') {
     $cal_val = $no1 * $no2;
+}else {
+    $cal_val = $no1 / $no2;
 }
-$cal_val = $no1 + $no2;
 echo $arthematic_operation;
 ?>
