@@ -14,5 +14,5 @@ if($arthematic_operation == 'sum_operation') {
 }else {
     $cal_val = $no1 / $no2;
 }
-echo $arthematic_operation;
+echo $cal_val;
 ?>
