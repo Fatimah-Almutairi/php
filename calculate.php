@@ -23,6 +23,10 @@ if($arthematic_operation == 'sum_operation') {
 switch ($arthematic_operation){
     case 'sum_operation': 
         $cal_val = $no1 + $no2;
+        break;
+    case 'sub_operation':
+        $cal_val = $no1 - $no2;
+        break;
 
 }
 echo $cal_val;
