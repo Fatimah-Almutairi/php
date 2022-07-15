@@ -8,6 +8,8 @@
 // first code 
 $arthematic_operation = $_POST['arth_operation'];
 echo $arthematic_operation . "<br>";
+// Using if Condition
+
 if($arthematic_operation == 'sum_operation') {
     $cal_val = $no1 + $no2;
 }else if($arthematic_operation == 'sub_operation') {
