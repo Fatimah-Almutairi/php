@@ -30,6 +30,8 @@ switch ($arthematic_operation){
     case 'multiple_operation' :
         $cal_val = $no1 * $no2;
         break;
+    default:
+    $cal_val = $no1 / $no2;
 
 }
 echo $cal_val;
