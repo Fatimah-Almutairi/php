@@ -32,6 +32,7 @@ switch ($arthematic_operation){
         break;
     default:
     $cal_val = $no1 / $no2;
+    break;
 
 }
 echo $cal_val;
