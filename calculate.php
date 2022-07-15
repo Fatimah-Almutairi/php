@@ -27,6 +27,9 @@ switch ($arthematic_operation){
     case 'sub_operation':
         $cal_val = $no1 - $no2;
         break;
+    case 'multiple_operation' :
+        $cal_val = $no1 * $no2;
+        break;
 
 }
 echo $cal_val;
