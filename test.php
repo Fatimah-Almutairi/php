@@ -4,7 +4,7 @@
 
 </head>
 <body>
-    <!-- <h3>Calculator</h3>
+    <h3>Calculator</h3>
     <form method ="post" action= "calculate.php" name= "calform" id="calform">
         <div>
          <label for="no1">Number 1:</label>
@@ -26,17 +26,7 @@
             </select>
         </div>
         <button id= "submit" name="submit" value= "Submit">Calculate</button>
-    </form> -->
-
-    <?php
-
-
-    echo new();
-
-
-    function new (){
-        echo "This is first function";
-    }
-    ?>
+    </form>
+    
 </body>
 </html>
