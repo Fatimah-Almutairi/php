@@ -1,7 +1,7 @@
 <?php
  $x =2;
  $y =5;
- $z = rec_area($x, $y);
+ rec_area($x, $y);
 
 // echo nw('Ali');
 
