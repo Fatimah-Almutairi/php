@@ -7,9 +7,12 @@
  $area = cal ( $x , $y );
  echo $area;
 // echo nw('Ali');
+echo "<br>";
 
 echo gettype($x);
+echo "<br>";
 
+echo var_dump($y);
 // function nw($name){
 //     echo "This is first function " . $name;
 // }
