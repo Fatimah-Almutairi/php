@@ -1,4 +1,6 @@
 <?php
+
+
  $x = 5;
  $y = 5;
  $pi_val = 2;
@@ -6,6 +8,7 @@
  echo $area;
 // echo nw('Ali');
 
+echo gettype($x);
 
 // function nw($name){
 //     echo "This is first function " . $name;
