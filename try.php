@@ -1,7 +1,8 @@
 <?php
- $x =2;
- $y =5;
- $area = cal ( $x , $y ) * 2;
+ $x = 5;
+ $y = 5;
+ $pi_val = 2;
+ $area = cal ( $x , $y );
  echo $area;
 // echo nw('Ali');
 
@@ -11,7 +12,8 @@
 // }
 
 function cal($x, $y){
-    $z = $x + $y;
+    global $pi_val;
+    $z = ( $x + $y ) * $pi_val;
     return $z;
 }
 echo "<br>";
