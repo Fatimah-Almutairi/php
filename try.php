@@ -13,6 +13,8 @@ echo gettype($x);
 echo "<br>";
 
 echo var_dump($y);
+echo "<br>";
+echo isset($x);
 // function nw($name){
 //     echo "This is first function " . $name;
 // }
