@@ -1,4 +1,6 @@
 <?php
+if(isset($_POST['no1']) && isset($_POST('no2'))){
+
 
 $no1 = $_POST['no1'];
 //  echo"<br>";
@@ -40,5 +42,10 @@ switch ($arthematic_operation){
     break;
 
 }
+
 echo $cal_val;
+
+}else{
+    echo 'Please enter your number.';
+}
 ?>
