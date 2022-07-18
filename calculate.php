@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['no1']) && isset($_POST('no2'))){
+if(isset($_POST['no1']) && isset($_POST['no2']) && !empty){
 
 // empty($x)
     $no1 = $_POST['no1'];
