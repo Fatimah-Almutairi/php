@@ -17,6 +17,8 @@ echo "<br>";
 echo isset($x);
 echo "<br>";
 
+echo empty($x);
+
 // function nw($name){
 //     echo "This is first function " . $name;
 // }
