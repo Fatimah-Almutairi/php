@@ -2,48 +2,48 @@
 if(isset($_POST['no1']) && isset($_POST('no2'))){
 
 
-$no1 = $_POST['no1'];
-//  echo"<br>";
-$no2 = $_POST['no2'];
-// echo"<br> <br>";
+    $no1 = $_POST['no1'];
+    //  echo"<br>";
+    $no2 = $_POST['no2'];
+    // echo"<br> <br>";
 
-// first code 
-$arthematic_operation = $_POST['arth_operation'];
-echo $arthematic_operation . "<br>";
-
-
-
-// Using if Condition
-
-// if($arthematic_operation == 'sum_operation') {
-//     $cal_val = $no1 + $no2;
-// }else if($arthematic_operation == 'sub_operation') {
-//     $cal_val = $no1 - $no2;
-// }else if($arthematic_operation == 'multiple_operation') {
-//     $cal_val = $no1 * $no2;
-// }else {
-//     $cal_val = $no1 / $no2;
-// }
+    // first code 
+    $arthematic_operation = $_POST['arth_operation'];
+    echo $arthematic_operation . "<br>";
 
 
 
-switch ($arthematic_operation){
-    case 'sum_operation': 
-        $cal_val = $no1 + $no2;
+    // Using if Condition
+
+    // if($arthematic_operation == 'sum_operation') {
+    //     $cal_val = $no1 + $no2;
+    // }else if($arthematic_operation == 'sub_operation') {
+    //     $cal_val = $no1 - $no2;
+    // }else if($arthematic_operation == 'multiple_operation') {
+    //     $cal_val = $no1 * $no2;
+    // }else {
+    //     $cal_val = $no1 / $no2;
+    // }
+
+
+
+    switch ($arthematic_operation){
+        case 'sum_operation': 
+            $cal_val = $no1 + $no2;
+            break;
+        case 'sub_operation':
+            $cal_val = $no1 - $no2;
+            break;
+        case 'multiple_operation' :
+            $cal_val = $no1 * $no2;
+            break;
+        default:
+        $cal_val = $no1 / $no2;
         break;
-    case 'sub_operation':
-        $cal_val = $no1 - $no2;
-        break;
-    case 'multiple_operation' :
-        $cal_val = $no1 * $no2;
-        break;
-    default:
-    $cal_val = $no1 / $no2;
-    break;
 
-}
+    }
 
-echo $cal_val;
+    echo $cal_val;
 
 }else{
     echo 'Please enter your number.';
