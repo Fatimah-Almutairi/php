@@ -56,12 +56,5 @@ echo "<br>";
 // }
 
 
-echo "<br> -------------------";
-$myname = 'Fatimah Mohammed Al-Mutairi';
-echo strlen($myname);   // يحسب كم حرف  بالمتغير مع المسافة
-echo "<br>";
-echo str_word_count($myname);  // يعد كم كلمة
-echo "<br>";
-
 
 ?>
