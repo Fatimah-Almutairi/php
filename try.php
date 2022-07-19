@@ -29,6 +29,11 @@ echo "<br>";
 $rand_val = rand(2,5);
 echo "This is rand number ". $rand_val;
 
+echo "<br>";
+
+echo "This is max number " . max(3, 5, 1, 19, 22, 12);
+echo "<br>";
+
 // function nw($name){
 //     echo "This is first function " . $name;
 // }
