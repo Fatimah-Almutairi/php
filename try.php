@@ -19,6 +19,16 @@ echo "<br>";
 
 echo empty($x);
 
+echo "<br>";
+$a = -3;
+// $b = +5;
+echo abs($a );
+echo "<br>";
+// echo abs ($b);
+
+$rand_val = rand(2,5);
+echo "This is rand number ". $rand_val;
+
 // function nw($name){
 //     echo "This is first function " . $name;
 // }
