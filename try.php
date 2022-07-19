@@ -34,6 +34,11 @@ echo "<br>";
 echo "This is max number " . max(3, 5, 1, 19, 22, 12);
 echo "<br>";
 
+echo "This is min number " . min(3, 0, 1, 19, 22, 12);
+echo "<br>";
+
+echo "this is the sqrt for number 12 " . sqrt(12);  // الجذر التربيعي
+
 // function nw($name){
 //     echo "This is first function " . $name;
 // }
