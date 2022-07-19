@@ -56,5 +56,15 @@ echo "<br>";
 // }
 
 
+$myname = "Fatimah Mohammed Al-Mutairi";
+echo strlen($myname);   // يعد كم حرف بالنص مع المسافة
+echo "<br>";
+echo str_word_count($myname);  // يعد كم كلمة
+echo "<br>";
+
+echo strrev($myname);   // يعكس الكلام
+echo "<br>";
+
+
 
 ?>
