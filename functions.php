@@ -81,6 +81,18 @@ print_r($new_date); // اتوقع يحول المتغير لمصفوفه
 echo "<br>";
 echo "Your day is :" . $new_date[0]; // يطلع لي اي index من المصفوفه احدده
 
+echo "<br>";
+
+$grades = array(23, 4, 6, 1, 66, 35, 72);
+
+echo count($grades);   // فايدتها تعد كم انديكس في المصفوفه
+
+echo "<br>";
+
+echo array_sum($grades); //    يجمع كل القيم الموجودة في المصفوفه
+echo "<br>";
+
+
 
 
 ?>
