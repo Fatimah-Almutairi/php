@@ -56,7 +56,7 @@ function rec_area($x, $y){ // يحسب مساحه  المستطيل مثلاً �
 }
 
 
-$myname = "Fatimah Mohammed Al-Mutairi";
+$myname = "Fatimah \r\n Mohammed \n\r Al-Mutairi";
 echo strlen($myname);   // يعد كم حرف بالنص مع المسافة
 echo "<br>";
 echo str_word_count($myname);  // يعد كم كلمة
@@ -72,6 +72,15 @@ echo "<br>";
 echo str_replace('Fatimah' , 'Bassam', $myname); // يبدل البرم الاول بقيمة البرم الثاني في المتغير المكتوب اسمه في البرم الثالث
 
 echo "<br>";
+
+echo nl2br($myname); // اذا فيه \n\r ينزل سطر جديد 
+echo "<br>";
+$brdate = '30-9-1995';
+$new_date = explode('-', $brdate);  // هنا كلما شاف داش ـ بيفصل النص او الارقام ويخليها خانه لحاله من الarray 
+print_r($new_date); // اتوقع يحول المتغير لمصفوفه
+echo "<br>";
+echo "Your day is :" . $new_date[0]; // يطلع لي اي index من المصفوفه احدده
+
 
 
 ?>
