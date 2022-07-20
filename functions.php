@@ -4,29 +4,29 @@
  $x = 5;
  $y = 5;
  $pi_val = 2;
- $area = cal ( $x , $y );
- echo $area;
+//  $area = cal ( $x , $y );
+//  echo $area;
 // echo nw('Ali');
 echo "<br>";
 
-echo gettype($x);
+echo gettype($x); // يطلع نوع المتغير هل هو int or srtring or float
 echo "<br>";
 
-echo var_dump($y);
+echo var_dump($y);  // يطبع نوع المتغير و قيمته
 echo "<br>";
-echo isset($x);
+echo isset($x); // يطلع لي اذا المتغير فيه قيمة او فاضي null
 echo "<br>";
 
-echo empty($x);
+echo empty($x); // يطلع لي اذا المتغير empty او لا
 
 echo "<br>";
 $a = -3;
 // $b = +5;
-echo abs($a );
+echo abs($a);  // يطلع القيمةالسالبة موجبه يحول السالب  لموجب فقط
 echo "<br>";
 // echo abs ($b);
 
-$rand_val = rand(2,5);
+$rand_val = rand(2,5); // فايدتها يطببع رقم عشوائي بين القيم هذي كل مره يتغيير
 echo "This is rand number ". $rand_val;
 
 echo "<br>";
@@ -50,10 +50,10 @@ function cal($x, $y){
 }
 echo "<br>";
 
-// function rec_area($x, $y){
-//     $area = ( $x + $y ) * 2;
-//     echo $area;
-// }
+function rec_area($x, $y){ // يحسب مساحه  المستطيل مثلاً نفس الفانكشين اللي فوق
+    $area = ( $x + $y ) * 2;
+    echo $area;
+}
 
 
 $myname = "Fatimah Mohammed Al-Mutairi";
