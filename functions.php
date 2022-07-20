@@ -65,6 +65,7 @@ echo "<br>";
 echo strrev($myname);   // يعكس الكلام
 echo "<br>";
 
+echo strpos($myname , 'Mohammed');  // اعطيه اسم المتغير والكلمة اللي ببحث عنها ويطلع لي وين تبدا من اي رقم 
 
 
 ?>
