@@ -131,6 +131,14 @@ $d = "2022-07-21";
 echo strtotime($d);   // فايدته يحول من التاريخ العادي الى تاريخ يفهمه الجهاز
 
 echo "<br>";
+$to = "info@mail.com";
+$subject = "contact us from website";
+$message = " Welcome, ....";
 
+$headers = "From: myamil@mail.com";
+
+
+
+mail($to, $subject, $message, $headers);
 
 ?>
