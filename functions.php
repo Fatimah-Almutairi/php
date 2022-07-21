@@ -92,7 +92,24 @@ echo "<br>";
 echo array_sum($grades); //    يجمع كل القيم الموجودة في المصفوفه
 echo "<br>";
 
+echo "<pre>"; // يرتب طباعة المصفوفه بحيث كل خانه سطر جديد
+print_r(array_count_values($grades)); // يطبع المصفوفه
+echo "</pre>";
 
+
+echo "<br>";
+array_push($grades, '0');  // يضيف قيمة نهاية المصفوفه وهنا القيمه الجديدة صفر 
+
+echo "<br>";
+array_pop($grades);  // في الحالة هذي بيحذف اخر قيمه من المصفوفه
+echo "<br>";
+
+
+
+
+echo "<pre>"; // يرتب طباعة المصفوفه بحيث كل خانه سطر جديد
+print_r($grades); // يطبع المصفوفه
+echo "</pre>";
 
 
 ?>
