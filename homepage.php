@@ -6,4 +6,8 @@
 <h2> Here Home Page</h2>
 
 <!-- هنا الفوتر للصفحات اربطه بالطريقه هذي اسهل كتابة وتعديل  -->
+
+
 <?php include('footer.php'); ?>
+
+<!-- finsh php  -->
